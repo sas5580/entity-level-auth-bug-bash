@@ -13,5 +13,3 @@ livePreviewConfiguration:
 # name here.
 authentication:
   policyName: BugBashOIDC
-#  includePaths:
-#    - /admin/*
