@@ -90,7 +90,7 @@ const EntityPage: Template<TemplateRenderProps> = ({
   path,
   document,
 }) => {
-  const { name, address } = document;
+  const { name, address, c_testSecureRichTextField } = document;
 
   return (
     <>
