@@ -15,3 +15,6 @@ livePreviewConfiguration:
 #  policyName: test-auth0-policy
 #  includePaths:
 #    - /admin/*
+sitemap:
+  fileName: custom-sitemap
+
