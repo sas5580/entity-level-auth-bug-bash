@@ -18,7 +18,7 @@ livePreviewConfiguration:
 sitemap:
   fileName: custom/sitemap
 staticRoutes:
-  - from: /staticsrc
-    to: /staticdest?foo=bar
+  - from: /redirectqueryparam
+    to: /index.html?foo=bar
     status: 303
 
