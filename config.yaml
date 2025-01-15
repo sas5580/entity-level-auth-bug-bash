@@ -24,4 +24,8 @@ staticRoutes:
   - from: /redirectqueryparam
     to: /index.html?foo=bar
     status: 303
+dynamicRoutes:
+  - from: /dynamicqueryparam/*
+  - to: /:splat?foo=bar
+  - status: 301
 
