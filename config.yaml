@@ -19,6 +19,6 @@ sitemap:
   fileName: custom/sitemap
 staticRoutes:
   - from: /staticsrc
-    to: /staticdest
+    to: /staticdest?foo=bar
     status: 303
 
