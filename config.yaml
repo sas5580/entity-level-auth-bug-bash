@@ -17,4 +17,8 @@ livePreviewConfiguration:
 #    - /admin/*
 sitemap:
   fileName: custom/sitemap
+staticRoutes:
+  - from: /staticsrc
+    to: /staticdest
+    status: 303
 
