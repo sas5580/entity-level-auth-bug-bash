@@ -18,6 +18,9 @@ livePreviewConfiguration:
 sitemap:
   fileName: custom/sitemap
 staticRoutes:
+  - from: /queryparamchain
+    to: /redirectqueryparam
+    status: 301
   - from: /redirectqueryparam
     to: /index.html?foo=bar
     status: 303
