@@ -19,13 +19,13 @@ sitemap:
   fileName: custom/sitemap
 staticRoutes:
   - from: /queryparamchain
-    to: /redirectqueryparam
+    to: /redirectqueryparam?baz=boo
     status: 301
   - from: /redirectqueryparam
     to: /index.html?foo=bar
     status: 303
 dynamicRoutes:
   - from: /dynamicqueryparam/*
-  - to: /:splat?foo=bar
-  - status: 301
+    to: /:splat?foo=bar
+    status: 301
 
