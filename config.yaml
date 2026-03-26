@@ -24,4 +24,6 @@ staticRoutes:
   - from: /redirectqueryparam
     to: /index.html?foo=bar
     status: 303
-
+  - from: /ext-rewrite
+    to: https://dog-api.kinduff.com/api/facts?number=5
+    status: 200
